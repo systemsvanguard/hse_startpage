@@ -1,0 +1,75 @@
+/* Styling for start page of HSE - Health Systems Evidence */
+body {
+  font-size: 14px;
+  line-height: 1;
+}
+
+header .navbar {
+  border-radius: 0;
+  margin: 0;
+}
+
+.hero {
+  background-image: url(../img/sky_background_05.jpg);
+  background-repeat: no-repeat;;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  min-height: 300px;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  /* top: 50%;  */
+  text-align: center;
+  width: 100%;
+}
+
+.hero-content h2 {
+  color: blue;
+  font-size: 24px;
+}
+
+.hero-content p {
+  color: blue;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn {
+  border-radius: 2px;
+  padding: 5px 10px;
+}  
+
+main {
+  /* min-height: 500px; */
+  padding: 25px 0;
+}
+
+footer {
+  padding: 30px 0;
+  font-size: 10px;
+  color: #bbb;
+  background: #222;
+  text-align: center;
+}
+
+/* styling for search bar */
+#imaginary_container{
+    margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+    border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+
