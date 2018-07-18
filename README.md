@@ -4,7 +4,7 @@ A web login and authentication app.  Back-end in Node.js with Express framework.
 ## Steps to Install
 - git clone https://github.com/systemsvanguard/hse_startpage.git 
 - npm install
-- nodemon server.js OR node server.js 
+- nodemon index.js OR node index.js 
 - Runs on port 5000 --> http://localhost:5000/
 
 
