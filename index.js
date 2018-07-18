@@ -1,11 +1,13 @@
-
 // require our dependencies
-var express        = require('express');
+const express = require('express')
+const path = require('path')
+const PORT = process.env.PORT || 5000
+
 var expressLayouts = require('express-ejs-layouts');
 var bodyParser     = require('body-parser');
 var app            = express();
 var webPort		   = 5000;
-var port           = process.env.PORT || webPort;
+// var PORT           = process.env.PORT || webPort;
 
 // use ejs and express layouts
 app.set('view engine', 'ejs');
@@ -23,7 +25,7 @@ app.use('/', router);
 app.use(express.static(__dirname + '/public'));
 
 // start the server
-app.listen(port, function() {
+app.listen(PORT, function() {
   console.log("App started and available on port " + webPort + " at http://localhost:"+ webPort +"/");
 });
 
